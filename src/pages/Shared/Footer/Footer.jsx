@@ -36,81 +36,109 @@ const Footer = () => {
           </div>
           <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-                CATEGORIES
+              <h2 class="title-font font-bold text-black tracking-widest text-base mb-3">
+                Support
               </h2>
               <nav class="list-none mb-10">
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                  <Link to=""><a class="text-black">Help Center</a></Link>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                <Link to=""> <a class="text-black">AirCover</a></Link>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                <Link to=""> <a class="text-black">Anti-discrimination</a></Link>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                <Link to=""><a class="text-black">Disability support</a></Link>
+                </li>
+                <li>
+                <Link to=""> <a class="text-black">Cancellation options</a></Link>
+                </li>
+                <li>
+                <Link to=""> <a class="text-black">Report neighborhood</a></Link>
                 </li>
               </nav>
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-                CATEGORIES
+              <h2 class="title-font font-bold text-black tracking-widest text-base mb-3">
+              Hosting
               </h2>
               <nav class="list-none mb-10">
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                  <Link to=""><a class="text-black">Airbnb your home</a></Link>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                <Link to=""> <a class="text-black">AirCover for Hosts</a></Link>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                <Link to=""> <a class="text-black">Hosting resources</a></Link>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                <Link to=""><a class="text-black">Community forum</a></Link>
+                </li>
+                <li>
+                <Link to=""> <a class="text-black">Hosting responsibly</a></Link>
+                </li>
+                <li>
+                <Link to=""> <a class="text-black">Airbnb-friendly apartments</a></Link>
+                </li>
+                <li>
+                <Link to=""> <a class="text-black">Join a free Hosting class</a></Link>
                 </li>
               </nav>
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-                CATEGORIES
+              <h2 class="title-font font-bold text-black tracking-widest text-base mb-3">
+              Airbnb
               </h2>
               <nav class="list-none mb-10">
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                  <Link to=""><a class="text-black">Newsroom</a></Link>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                <Link to=""> <a class="text-black">New features</a></Link>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                <Link to=""> <a class="text-black">Careers</a></Link>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                <Link to=""><a class="text-black">Investors</a></Link>
+                </li>
+                <li>
+                <Link to=""> <a class="text-black">Gift cards</a></Link>
+                </li>
+                <li>
+                <Link to=""> <a class="text-black">Airbnb.org emergency</a></Link>
                 </li>
               </nav>
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-                CATEGORIES
+              <h2 class="title-font font-bold text-black tracking-widest text-base mb-3">
+                Support
               </h2>
               <nav class="list-none mb-10">
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                  <Link to=""><a class="text-black">Help Center</a></Link>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                <Link to=""> <a class="text-black">AirCover</a></Link>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                <Link to=""> <a class="text-black">Anti-discrimination</a></Link>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                <Link to=""><a class="text-black">Disability support</a></Link>
+                </li>
+                <li>
+                <Link to=""> <a class="text-black">Cancellation options</a></Link>
+                </li>
+                <li>
+                <Link to=""> <a class="text-black">Report neighborhood</a></Link>
                 </li>
               </nav>
             </div>
+            
           </div>
         </div>
         <div class="h-[1px] w-full bg-black"></div>
@@ -134,7 +162,7 @@ const Footer = () => {
                 <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                   <Link to="">
                     <a href="">
-                      <FaFacebookF size="1.7rem" color="black" />
+                      <FaFacebookF size="1.2rem" color="black" />
                     </a>
                   </Link>
                 </motion.div>
@@ -142,33 +170,33 @@ const Footer = () => {
                 <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
                   <Link to="">
                     <a href="">
-                      <FaInstagram size="1.7rem" color="black" />
+                      <FaInstagram size="1.2rem" color="black" />
                     </a>
                   </Link>
                 </motion.div>
 
                 <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-              <Link to="">
-                <a href="">
-                  <FaLinkedinIn size="1.7rem" color="black" />
-                </a>
-              </Link>
-            </motion.div>
+                  <Link to="">
+                    <a href="">
+                      <FaLinkedinIn size="1.2rem" color="black" />
+                    </a>
+                  </Link>
+                </motion.div>
 
                 <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-              <Link to="">
-                <a href="">
-                  <BsTwitterX size="1.7rem" color="black" />
-                </a>
-              </Link>
-            </motion.div>
+                  <Link to="">
+                    <a href="">
+                      <BsTwitterX size="1.2rem" color="black" />
+                    </a>
+                  </Link>
+                </motion.div>
                 <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-              <Link to="">
-                <a href="">
-                  <FaWhatsapp size="1.7rem" color="black" />
-                </a>
-              </Link>
-            </motion.div>
+                  <Link to="">
+                    <a href="">
+                      <FaWhatsapp size="1.2rem" color="black" />
+                    </a>
+                  </Link>
+                </motion.div>
                 {/* <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
@@ -191,12 +219,12 @@ const Footer = () => {
               </Link>
             </motion.div> */}
                 <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-              <Link to="">
-                <a href="">
-                  <BiLogoGmail size="1.7rem" color="black" />
-                </a>
-              </Link>
-            </motion.div>
+                  <Link to="">
+                    <a href="">
+                      <BiLogoGmail size="1.2rem" color="black" />
+                    </a>
+                  </Link>
+                </motion.div>
               </div>
             </div>
           </div>
