@@ -1,19 +1,18 @@
 import React from "react";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa6";
+// import { FaLinkedinIn } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-import { BsTwitterX } from "react-icons/bs";
-import { FaWhatsapp } from "react-icons/fa";
+// import { BsTwitterX } from "react-icons/bs";
+// import { FaWhatsapp } from "react-icons/fa";
 import { motion } from "framer-motion";
-
 
 const Footer = () => {
   return (
     <div>
       Explain
       <footer class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+        <div class="container px-5 py-12 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
             <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
               <svg
@@ -113,7 +112,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div class="bg-gray-100">
+        <div class="h-[1px] w-full bg-black"></div>
+        <div class="">
           <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
             <p class="text-gray-500 text-sm text-center sm:text-left">
               © 2020 Tailblocks —
@@ -127,75 +127,76 @@ const Footer = () => {
                 @knyttneve
               </a>
             </p>
+
             <div class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-            <div className="grid grid-flow-col gap-3">
-            <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-              <Link to="">
-                <a href="">
-                  <FaFacebookF size="1.7rem" color="black" />
-                </a>
-              </Link>
-            </motion.div>
+              <div className="grid grid-flow-col gap-3">
+                <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                  <Link to="">
+                    <a href="">
+                      <FaFacebookF size="1.7rem" color="black" />
+                    </a>
+                  </Link>
+                </motion.div>
 
-            <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
-              <Link to="">
-                <a href="">
-                  <FaInstagram size="1.7rem" color="black" />
-                </a>
-              </Link>
-            </motion.div>
+                <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                  <Link to="">
+                    <a href="">
+                      <FaInstagram size="1.7rem" color="black" />
+                    </a>
+                  </Link>
+                </motion.div>
 
-            <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                {/* <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
                   <FaLinkedinIn size="1.7rem" color="black" />
                 </a>
               </Link>
-            </motion.div>
+            </motion.div> */}
 
-            <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                {/* <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
                   <BsTwitterX size="1.7rem" color="black" />
                 </a>
               </Link>
-            </motion.div>
-            <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+            </motion.div> */}
+                {/* <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
                   <FaWhatsapp size="1.7rem" color="black" />
                 </a>
               </Link>
-            </motion.div>
-            <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+            </motion.div> */}
+                {/* <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
                   <FaDiscord size="1.7rem" color="black" />
                 </a>
               </Link>
-            </motion.div>
-            <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+            </motion.div> */}
+                {/* <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
                   <FaThreads size="1.7rem" color="black" />
                 </a>
               </Link>
-            </motion.div>
-            <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+            </motion.div> */}
+                {/* <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
                   <FaYoutube size="1.7rem" color="black" />
                 </a>
               </Link>
-            </motion.div>
-            <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+            </motion.div> */}
+                {/* <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
                   <BiLogoGmail size="1.7rem" color="black" />
                 </a>
               </Link>
-            </motion.div>
-          </div>
+            </motion.div> */}
+              </div>
             </div>
           </div>
         </div>
