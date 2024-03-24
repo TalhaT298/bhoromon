@@ -1,11 +1,12 @@
 import React from "react";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-// import { FaLinkedinIn } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-// import { BsTwitterX } from "react-icons/bs";
-// import { FaWhatsapp } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
+import { FaWhatsapp } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { BiLogoGmail } from "react-icons/bi";
 
 const Footer = () => {
   return (
@@ -146,28 +147,28 @@ const Footer = () => {
                   </Link>
                 </motion.div>
 
-                {/* <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
                   <FaLinkedinIn size="1.7rem" color="black" />
                 </a>
               </Link>
-            </motion.div> */}
+            </motion.div>
 
-                {/* <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
                   <BsTwitterX size="1.7rem" color="black" />
                 </a>
               </Link>
-            </motion.div> */}
-                {/* <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+            </motion.div>
+                <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
                   <FaWhatsapp size="1.7rem" color="black" />
                 </a>
               </Link>
-            </motion.div> */}
+            </motion.div>
                 {/* <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
@@ -189,13 +190,13 @@ const Footer = () => {
                 </a>
               </Link>
             </motion.div> */}
-                {/* <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
+                <motion.div whileTap={{ rotate: 90, scale: 0.75 }}>
               <Link to="">
                 <a href="">
                   <BiLogoGmail size="1.7rem" color="black" />
                 </a>
               </Link>
-            </motion.div> */}
+            </motion.div>
               </div>
             </div>
           </div>
