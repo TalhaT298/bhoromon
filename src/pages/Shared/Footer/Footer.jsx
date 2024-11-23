@@ -142,7 +142,7 @@ const Footer = () => {
           </div>
         </div>
         <div class="h-[1px] w-full bg-black"></div>
-        <div class="">
+        <div className="">
           <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
             <p class="text-gray-500 text-sm text-center sm:text-left">
               © 2020 Tailblocks —
